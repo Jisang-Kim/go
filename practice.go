@@ -10,6 +10,7 @@ type Node struct {
 type LinkedList struct {
 	root *Node
 	tail *Node
+	sec  int
 }
 
 func (l *LinkedList) AddNode(val int) {
